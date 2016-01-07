@@ -20,6 +20,10 @@ ul  {
     padding: 0;
 }
 
+textarea:focus, input:focus{
+    outline: none;
+}
+
 
 /* --- Top bar --- */
 
@@ -58,10 +62,40 @@ ul  {
 }
 
 
-/* --- Search box and buttons --- */
+/* --- Search box --- */
 
+.searcharea  {
+    margin-top: 40px;
+    width: 650px;
+    height:40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: thin; 
+    border-color: #d7d9db;
+}
 
+.searchbox  { 
+    position: relative;
+    width:638px;
+    height: 25px;
+    margin-top: 6px;
+    margin-left: 3px;
+    border: 0px
+}
 
+.micpic {
+    width: 35px;
+    height: 35px;
+    position:relative;
+    left: 93.5%;
+    top: -31px;
+    text-align: center;
+}
+
+.micpic img {
+    height: 35px   
+}
 
 /* --- Footer bar --- */
 
