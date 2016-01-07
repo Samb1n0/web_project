@@ -1,0 +1,84 @@
+/* --- Apply to all --- */
+
+*   {
+    font-family: Arial;
+    font-size: 14px;
+}
+
+a   {
+    text-decoration: none;
+}
+
+li  {
+    display: inline;
+}
+
+
+ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* --- Top bar --- */
+
+.toplist    {
+    position: absolute;
+    top: 25px;
+    right: 10px;
+}
+
+
+/* --- Logo and undertext --- */
+
+.fix    {
+    margin-top: 200px;
+}
+
+.logo   {
+    background-image: url(googlelogo_color_272x92dp.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 272px;
+    height:92px;
+    text-align: center;
+    left: 50%;
+    margin: auto;
+}
+
+.logosubtext    {
+    width: 22px;
+    color: #4285f4;
+    font-size: 16px;
+    left: 214px;
+    top: 75px;
+    position: relative;
+    white-space: nowrap;
+}
+
+
+/* --- Search box and buttons --- */
+
+
+
+
+/* --- Footer bar --- */
+
+
+.footer {
+    width:100%;
+}
+
+
+.footerleft {
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
+}
+
+.footerright    {
+    position: absolute;
+    right: 10px;
+    bottom:20px;
+}
